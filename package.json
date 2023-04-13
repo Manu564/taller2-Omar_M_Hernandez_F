@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "typescript": "^5.0.4",
+    "typescritp": "^1.0.0"
+  },
+  "name": "taller2-curso-frontend",
+  "description": "Este repositorio esta creado para subir el taller 2 de curso de front end developer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
