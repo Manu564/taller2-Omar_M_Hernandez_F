@@ -1,20 +1,20 @@
-const form = document.getElementById('form') as HTMLFormElenent;
-const btnGuardar = document.getElementById('btn-guardar') as HTMLButtonElenent;
+const form = document.getElementById('form') as HTMLFormElement;
+const btnGuardar = document.getElementById('btn-guardar') as HTMLButtonElement;
 
-btnGuardar.addEventListener('click', (e) => 
+btnGuardar.addEventListener('click', (e) => {
 e.preventDefault();
-console.log("Ingreso a la validación del formulario"); {
+console.log("Ingreso a la validación del formulario"); 
 
 
-const tipobocumento = document.getElementByTd('tipoDocumento') as HTMLInputElemen
-const numeroDocumento = document.getElementBy1d('numeroDocumento') as NTMLInputElement;
-const nombre = document.getElementBy1d('nombre') as HTMLInputElement;
-const apellido = document.getElementById('apellido') as MTMLINputElement;
-const celular = document.getElementByTd('celutar') as HTMLInputElement;
-const email = document.getElementById('enail') as HTMLInputElement;
-const Linkedin = document.getElementById('Linkedin') as HTMLInputElement;
-const github = document.getElementByTd('gíthub') as HTHLInputElement;
+const tipoDocumento = document.getElementById('tipoDocumento') as HTMLInputElement;
+const numeroDocumento = document.getElementById('numeroDocumento') as HTMLInputElement;
+const nombre = document.getElementById('nombre') as HTMLInputElement;
+const apellido = document.getElementById('apellido') as HTMLInputElement;
+const celular = document.getElementById('celular') as HTMLInputElement;
+const email = document.getElementById('email') as HTMLInputElement;
+const linkedin = document.getElementById('linkedin') as HTMLInputElement;
+const github = document.getElementById('gíthub') as HTMLInputElement;
 
 console.log(tipoDocumento.value) ;
 
-})
+});
