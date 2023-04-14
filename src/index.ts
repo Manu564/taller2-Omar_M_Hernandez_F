@@ -5,7 +5,6 @@ btnGuardar.addEventListener('click', (e) => {
 e.preventDefault();
 console.log("Ingreso a la validación del formulario"); 
 
-
 const tipoDocumento = document.getElementById('tipoDocumento') as HTMLInputElement;
 const numeroDocumento = document.getElementById('numeroDocumento') as HTMLInputElement;
 const nombre = document.getElementById('nombre') as HTMLInputElement;
